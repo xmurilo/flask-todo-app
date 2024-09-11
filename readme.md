@@ -39,6 +39,19 @@ git clone https://github.com/xmurilo/flask-todo-app.git
 cd flask-todo-app
 ```
 
+### 2. Construa a Imagem Docker
+```bash
+docker build -t flask-todo-app .
+```
+
+### 3. Execute o Contêiner Docker
+```bash
+docker run -d -p 8080:8080 flask-todo-app
+```
+
+### 4. Acesse a Aplicação
+Abra o navegador e acesse `http://localhost:8080`.
+
 ## Aplicação rodando localmente
 
 ![aplicacao](image.png)
